@@ -1,6 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*---------------------------------------------------------------------Colors*/
+body {
+    background-color: #c2bbbba2;
+}
+
+.bg-color-name-title {
+    background-color: rgb(216, 157, 47);
+}
+
+.ui-menu-color-home {
+    background-color: rgb(8, 7, 7);
+}
+
+.ui-menu-color-about {
+    background-color: rgb(223, 141, 19);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(182, 14, 14);
+}
+
+/*-----------------------------------------------Specail paddings/margins/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*---------------------------------------------------------------------header*/
+
+header {
+    margin: 0;
+}
 
 .logo {
     background: url("IMG_2378.jpg");
@@ -15,10 +63,113 @@
 
 .name {
     font-family: "EXO", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 80px;
+    margin-top: 50px;
+    text-align: center;
     color: #dfb015;
     position: center;
 }
 
+.title {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    scroll-margin-top: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: #746526;
+}
+
 /*----------------------------------------------------------------------Menu*/
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(35, 160, 35);
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: rgb(0, 255, 21);
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 250;
+    letter-spacing: 2px;
+}
+
+/*-------------------------------------------------------------------Hover.css*/
+
+.hvr-bounce-to-right {
+    background: rgb(78, 160, 156);
+    height: 120px;
+}
+
+/*----------------------------------------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px, 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: #ff7300;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgba(88, 72, 20, 0.692);
+}
+
+footer-detials {
+    padding: 20px;
+}
