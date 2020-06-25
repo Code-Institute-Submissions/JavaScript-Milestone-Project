@@ -61,6 +61,28 @@ header {
     background-size: cover;
 }
 
+.logo-1 {
+    background: url("images/IMG_2571.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*add images for this later
+.logo-2 {
+    background: url("images/IMG_2378.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    padding-top: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
 .name {
     font-family: "EXO", sans-serif;
     font-weight: 100;
