@@ -37,11 +37,20 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: #e9ad08;
 }
 
 .inline-block {
     display: inline-block;
+}
+
+.history {
+    width: 40vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
 }
 
 /*---------------------------------------------------------------------header*/
@@ -158,6 +167,17 @@ header {
 .hvr-bounce-to-right {
     background: rgb(78, 160, 156);
     height: 120px;
+}
+
+/*-------------------------------------------------------------------------Map*/
+
+#map {
+    border: 1px solid #333;
+    width: 33vw;
+    display: block;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*----------------------------------------------------------------------Footer*/
