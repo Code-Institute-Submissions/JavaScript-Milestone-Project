@@ -80,9 +80,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*add images for this later
+
 .logo-2 {
-    background: url("images/IMG_2378.jpg");
+    background: url("images/IMG_1859.jpg");
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -91,7 +91,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-*/
+
 .name {
     font-family: "EXO", sans-serif;
     font-weight: 100;
