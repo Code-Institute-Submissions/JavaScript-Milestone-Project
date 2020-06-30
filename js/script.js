@@ -1,22 +1,22 @@
-function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
-          center: {lat: 1.373333, lng: 32.290276}
-        });
+function initMap() {    
+        latLng = new google.maps.LatLng(1.373333, 32.290276)
+        var mapOptions = {
+            center: latLng,
+            zoom: 6,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
         var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-        var markers = locations.map(function(location, i) {
-            return new google.map.Marker({
-                position,
-                label: labels[i % labels.length]
-            });
+        var marker = new google.maps.Marker({
+            position: latLng,
+            visible: true
         });
-
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
+        marker.setMap(map);
+    
         var locations = [
             {lat: 0.347596, lng: 32.582520}
-        ];    
-    
+        ];
 };    

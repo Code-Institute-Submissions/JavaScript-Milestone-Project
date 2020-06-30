@@ -10,50 +10,76 @@
     <!--href cdnjs.com-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <!--href cdnjs.com-->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>12 WEEKS IN UGANDA</title>
-    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css?v=1" type="text/css">
+    <title>12 WEEKS IN UGANDA </title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+           (function(){
+                emailjs.init("user_6WuqaO78UQjqu7in0EY7s");
+             })();
+    </script>
 </head>
 <body>
 
-
 <header> 
   <div class="row no-gutters align-items-start">
-       <a href="index.html" class="col-md4 logo-2"></a>  
-    <div class="col-md-8"> 
+        
+    <div class="col-md-12"> 
         <div class="row no-gutters bg-color-name-title align-items-start">
             <div class="col heading">
                  <h1 class="name"><a href="index.html">12 WEEKS IN UGANDA</a></h1>
                 <h3 class="title">Do You Have Any Questions For Us? Or Just Want To Say Hi! Drop Us A Message!!</h3>
             </div>
         </div> 
+         
         
-<!--Nav Menu-->
-        <div class="row no-gutters align-items-start">
-           <div class="col">
-             <ul id="nav" class="list-inlne menucontainer">
-               <li class="col-3 col-sm3 ui-menu-color-home list-inline-item menuitem">
+ <!--Nav Menu-->
+        <div class="row no-gutters align-items-start mb-4">
+           <div class="col-12 pl-0 ml-0">
+             <ul id="nav2" class="list-inlne menucontainer pl-0">
+               <li class="col-4 ui-menu-color-home list-inline-item menuitem">
                  <a href="index.html" class="hvr-bounce-to-right"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                </li>
-               <li class="col-3 col-sm3 ui-menu-color-about list-inline-item menuitem">
+               <li class="col-4 col-sm3 ui-menu-color-about list-inline-item menuitem">
                  <a href="about.html" class="hvr-bounce-to-right"><i class="fa fa-user" aria-hidden="true"></i><span>About Us</span></a>
                </li>
-               <li class="col-3 col-sm3 ui-menu-color-contact list-inline-item menuitem">
+               <li class="col-4 col-sm3 ui-menu-color-contact list-inline-item menuitem">
                  <a href="contact.html" class="hvr-bounce-to-right"><i class="fa fa-envelope" aria-hidden="true"></i><span>Contact Us</span></a>
                </li>
              </ul>
            </div>
         </div>
-<!--Nav Menu-->
+ <!--Nav Menu-->
+            <a href="index.html" class="col-md4 logo-2"></a> 
     </div>
 
   </div>
 </header> 
+<!--Contact form-->
+<div class="container-fluid">
+    <div class="row bg-color-contact">
+       <div class="col">
+         <h4 class="text-center uppercase contact-heading">Unasked questions are never answered!</h4>
+         <div class="center-form">
+            <form onsubmit="return sendMail(this);">
+              <input type="text " name="name" id="fullname" class="form-control" placeholder="Name" required/>
+              <input type="email " name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+              <textarea rows="10" name="message" id="message" class="form-control" placeholder="What Do You Have In Mind" required></textarea>
+              <div class="form-row text-center">
+                <div class="col">
+                   <button type="submit" class="btn btn-secondary">Send</button>
+                </div>
+              </div>
+            </form>
+         </div>
+       </div>
+    </div>
+</div>
+<!--Contact form-->
 
-<section></section>
-
-<footer class="container-fluid">
+<footer class="container-fluid pt-2">
    <div id="footer-detials" class="row">
      <div class="col-sm-4">
         <h5 class="uppercase general-sub">About Us</h5>
@@ -66,40 +92,40 @@
      </div>
 
       <div class="col-sm-4">
-        <h5 class="uppercase general-sub">Our Socails</h5>
+        <h5 class="uppercase general-sub">Our Socials</h5>
         <p class="inline-block">Click the following links below and gives us a follow to keep update with Us</p>
         <ul class="list-inline social-links">
           <li class="list-inline-item">
              <a target="_blank" href="#">
-               <i class="fa fa-facebook" aria-hidden="true"></i>
+               <i class="fa fa-facebook pt-2" aria-hidden="true"></i>
                <span class="sr-only">Facebook</span>
              </a>
           </li>
 
           <li class="list-inline-item">
              <a target="_blank" href="#">
-               <i class="fa fa-twitter" aria-hidden="true"></i>
+               <i class="fa fa-twitter pt-2" aria-hidden="true"></i>
                <span class="sr-only">Twitter</span>
              </a>
           </li>
 
           <li class="list-inline-item">
              <a target="_blank" href="#">
-               <i class="fa fa-instagram" aria-hidden="true"></i>
+               <i class="fa fa-instagram pt-2" aria-hidden="true"></i>
                <span class="sr-only">Instagram</span>
              </a>
           </li>
 
           <li class="list-inline-item">
              <a target="_blank" href="#">
-               <i class="fa fa-linkedin" aria-hidden="true"></i>
+               <i class="fa fa-linkedin pt-2" aria-hidden="true"></i>
                <span class="sr-only">LinkedIn</span>
              </a>
           </li>
 
           <li class="list-inline-item">
              <a target="_blank" href="#">
-               <i class="fa fa-youtube-play" aria-hidden="true"></i>
+               <i class="fa fa-youtube-play pt-2" aria-hidden="true"></i>
                <span class="sr-only">YouTube</span>
              </a>
           </li>
@@ -109,7 +135,7 @@
    </div>
 </footer>
 
-<script></script>
+<script src="js/sendEmail.js"></script>
     
 </body>
 </html>

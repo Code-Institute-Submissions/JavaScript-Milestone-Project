@@ -9,16 +9,20 @@ body {
     background-color: rgb(216, 157, 47);
 }
 
-.ui-menu-color-home {
-    background-color: rgb(8, 7, 7);
+.bg-color-contact {
+    background-color: #fff;
 }
 
-.ui-menu-color-about {
-    background-color: rgb(223, 141, 19);
+#nav2 li.ui-menu-color-home a  {
+    background-color: #070707;
 }
 
-.ui-menu-color-contact {
-    background-color: rgb(182, 14, 14);
+#nav2 li.ui-menu-color-about a {
+    background-color: #ebdc0d;
+}
+
+#nav2 li.ui-menu-color-contact a {
+    background-color: #ad0404;
 }
 
 /*-----------------------------------------------Specail paddings/margins/text*/
@@ -63,6 +67,7 @@ header {
     background: url("IMG_2378.jpg");
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
     display: block;
     width: 100%;
     padding-top: 60%;
@@ -122,11 +127,12 @@ header {
     font-size: 0;
 }
 
-#nav {
+#nav2 {
     margin: 0;
+    background-color: red;
 }
 
-#nav li {
+#nav2 li {
     font-size: 14px;
     padding: 0;
 }
@@ -140,14 +146,14 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: rgb(35, 160, 35);
+    color: #fafafa;
     height: 120px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: rgb(0, 255, 21);
+    color: #fafafa;
     font-size: 26px;
 }
 
@@ -177,7 +183,7 @@ header {
     display: block;
     height: 50vh;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 2px;
 }
 
 /*----------------------------------------------------------------------Footer*/
@@ -187,6 +193,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding-bottom: 0;
 }
 
 .social-links {
@@ -215,3 +222,34 @@ footer {
 footer-detials {
     padding: 20px;
 }
+
+/*----------------------------------------------------------------Contact form*/
+
+.contact-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #f10909;
+}
+
+/*---------------------------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+       padding-top: 10px;
+       min-height: 240px;
+       margin: 0 auto;
+       max-width: 50%; 
+    }
+} 
