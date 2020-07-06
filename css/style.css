@@ -183,7 +183,191 @@ header {
     display: block;
     height: 50vh;
     margin-left: auto;
-    margin-right: 2px;
+    margin-right: auto;
+}
+
+/*-----------------------------------------------------------------------Uganda*/
+
+.history {
+    overflow: auto;
+}
+
+/*--------------------------------------------------------------------Carousel*/
+
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 580px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.img- {
+    background: url(images/IMG_3007.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background: url(images/IMG_2537.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url(images/IMG_2784.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background: url(images/IMG_3001.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background: url(images/IMG_3050.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    background: url(images/IMG_3051.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img6 {
+    background: url(images/IMG_3060.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img7 {
+    background: url(images/IMG_3110.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img8 {
+    background: url(images/IMG_3112.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img9 {
+    background: url(images/IMG_3142.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.img10 {
+    background: url(images/IMG_3274.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
 }
 
 /*----------------------------------------------------------------------Footer*/
