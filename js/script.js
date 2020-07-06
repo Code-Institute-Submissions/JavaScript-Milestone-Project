@@ -6,7 +6,6 @@ function initMap() {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 

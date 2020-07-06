@@ -55,6 +55,7 @@ h4 {
     margin-right: auto;
     text-align: center;
     clear: both;
+    overflow: auto;
 }
 
 /*---------------------------------------------------------------------header*/
@@ -186,16 +187,10 @@ header {
     margin-right: auto;
 }
 
-/*-----------------------------------------------------------------------Uganda*/
-
-.history {
-    overflow: auto;
-}
-
 /*--------------------------------------------------------------------Carousel*/
 
 .carousel-container {
-    width: 80%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -237,7 +232,6 @@ header {
     height: auto;
     padding: 95%;
     display: block;
-    background: cover;
     background-repeat: no-repeat;
 }
 
@@ -252,7 +246,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img2 {
@@ -266,7 +259,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img3 {
@@ -280,7 +272,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img4 {
@@ -294,7 +285,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img5 {
@@ -308,7 +298,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img6 {
@@ -322,7 +311,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img7 {
@@ -336,7 +324,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img8 {
@@ -350,7 +337,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img9 {
@@ -364,7 +350,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img10 {
@@ -378,7 +363,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img11 {
@@ -392,7 +376,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img12 {
@@ -406,7 +389,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img13 {
@@ -420,7 +402,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img14 {
@@ -434,7 +415,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img15 {
@@ -448,7 +428,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img16 {
@@ -462,7 +441,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img17 {
@@ -476,7 +454,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img18 {
@@ -490,7 +467,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 .img19 {
@@ -504,7 +480,6 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 /*----------------------------------------------------------------------Footer*/
