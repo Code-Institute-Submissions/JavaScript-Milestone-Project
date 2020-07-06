@@ -237,6 +237,7 @@ header {
     height: auto;
     padding: 95%;
     display: block;
+    background: cover;
     background-repeat: no-repeat;
 }
 
@@ -251,6 +252,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img2 {
@@ -264,6 +266,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img3 {
@@ -277,6 +280,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img4 {
@@ -290,6 +294,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img5 {
@@ -303,6 +308,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img6 {
@@ -316,6 +322,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img7 {
@@ -329,6 +336,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img8 {
@@ -342,6 +350,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img9 {
@@ -355,6 +364,7 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
 }
 
 .img10 {
@@ -368,6 +378,133 @@ header {
     padding: 95%;
     display: block;
     background-repeat: no-repeat;
+    background: cover;
+}
+
+.img11 {
+    background: url(images/IMG_3298.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img12 {
+    background: url(images/IMG_3325.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img13 {
+    background: url(images/IMG_3328.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img14 {
+    background: url(images/IMG_3336.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img15 {
+    background: url(images/IMG_3448.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img16 {
+    background: url(images/IMG_3467.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img17 {
+    background: url(images/IMG_3478.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img18 {
+    background: url(images/IMG_3496.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.img19 {
+    background: url(images/IMG_3502.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 100%;
+    height: auto;
+    padding: 95%;
+    display: block;
+    background-repeat: no-repeat;
+    background: cover;
 }
 
 /*----------------------------------------------------------------------Footer*/
