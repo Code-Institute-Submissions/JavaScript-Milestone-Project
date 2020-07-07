@@ -1,39 +1,76 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#  JavaScript
+##  12 WEEKS IN UGANDA
 
-Welcome Likibi ,
+In this project I tried to explored with the idea of creating a travel blog using my past travel experience. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+#  UX
 
-## Gitpod Reminders
+This website target is for people who are looking to get into traveling and seeing the world but are unsure of leaving their confort zone. It targets a narrow range of audience. This case it's for young adults looking to take a gap year or time off to explore. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I wanted to ensure that when a user clicks on the website, they should be able to a map of where I have been, explore my gallary of pictures and fun adventures i have been and also make it easy for them to contact me 
 
-`python3 -m http.server`
+#  Features
 
-A blue button should appear to click: *Make Public*,
+## Exisiting Features
 
-Another blue button should appear to click: *Open Browser*.
+- Home page
+  -  I have ensure that it is easy for eveyone to esaily have access to the home page from any where they are on the website. I have ensured that their are mutiples ways of getting from any page to home page by providing a home menu tab which can be accessed from all pages. The logo is set to home aswell and I also made the banner clickable to home.
+  - I have provided useful information in the `footer` section 
+    - How we can be contacted
+    - Social Media links
+    - A brief about us in the `About` section
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- About page
+  - This page contains information about the aims of the establishment for their users both potential and existing ones can find.
+    - Who we are.
+    - Why they decided to come together
+    - Their main objective
+    - And why you should join them
 
-A blue button should appear to click: *Make Public*,
+- Contact Us page
+  - This page provides the user with information which they may find useful
+    - Provides with our contact information
+    - A section for when to reach out to us for any queries 
 
-Another blue button should appear to click: *Open Browser*.
+## Features to Implement 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Add a potential QnA section to contact page or create a new page
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+# Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- **JavaScript**
+   - This framework was used to display my google Maps Api
+   - I also tried to used this framework to display my gallary in on the website but couldn't get the images to response 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- **EmailJs** 
+   - I used this framework to inconperate eamil servers to my website
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- **Boostrap**
+  - This framework was used to help with styling and creating a responsive mobile first approach
+- **CSS3**
+  - The project uses `CSS3` to apply custome styling to both `HTML5` and `Boostrap`
+- **HTML5**
+  - This project uses `HTML5` to provide content and `Inline styling` to our website
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Testing
 
---------
+I have done a number of testing on the website. The website is quiet not  responsive as intended. I came across a numeber of isssues and i have come to a conclusion that my images may have been to big and i used look into programs to help down scale my images for future projects
 
-Happy coding!
+# Deployment
+
+I used [GitHub](http://github.com) to save all my file remotely. [GitPod](http://gitpod.com) to launch my workspace where all coding and coding testing is done.
+
+# Credit
+   Would like to thank my memtor for the help and skype sessions we had during the planing and coding of this project
+
+## Content
+- 
+- Family font from [Google Font](https://font.google.com)
+
+## Media
+
+- All Images are from got my personal photo library
+
+## Acknowledgements
+- Inspiration for the `header` and `footer` was inpired by [Code Institute](http://.codeinstitute.net) User Centric Frontend Development mini project.  
